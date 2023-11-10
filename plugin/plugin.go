@@ -3,6 +3,6 @@ package plugin
 var (
 	Name    = "scaleway"
 	Kind    = "source"
-	Team    = "scaleway"
+	Team    = "kemal"
 	Version = "development"
 )

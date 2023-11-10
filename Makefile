@@ -19,7 +19,7 @@ gen-docs: build
 
 .PHONY: dist
 dist:
-	cp -vf README.md > docs/overview.md
+	cp -vf README.md docs/overview.md
 	go run main.go package -m "Release ${VERSION}" ${VERSION} .
 
 .PHONY: lint
